@@ -1,0 +1,23 @@
+@media (max-width: 640px) {
+    #app {font-size: .8em}
+    #app .form-wrapper .form-section {width: 100%;}
+    #app .form-wrapper .form-section .error-content span {font-size: .7em}
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    #app {font-size: .8em}
+    #app .form-wrapper .form-section {width: 80%;}
+    #app .form-wrapper .form-section .error-content span {font-size: .7em}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #app {font-size: .8em}
+    #app .form-wrapper .form-section {width: 70%;}
+    #app .form-wrapper .form-section .error-content span {font-size: .85em}
+}
+
+@media (min-width: 1025px){
+    #app {font-size: 1em}
+    #app .form-wrapper .form-section {width: 50%}
+    #app .form-wrapper .form-section .error-content span {font-size: .85em}
+}
